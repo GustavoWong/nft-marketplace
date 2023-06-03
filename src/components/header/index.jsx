@@ -8,11 +8,11 @@ const Nav = () => {
                     <h1 className="font-black text-white text-lg">NFTMarketPlace</h1>
 
                     <ul className=" gap-5 text-white hidden lg:flex">
-                        <li> <a href="#"> Home</a> </li>
-                        <li> <a href="#"> Discover</a> </li>
-                        <li> <a href="#"> Marketplace</a> </li>
-                        <li> <a href="#"> Creators</a> </li>
-                        <li> <a href="#"> Community</a> </li>
+                        <li> <button> Home</button> </li>
+                        <li> <button> Discover</button> </li>
+                        <li> <button> Marketplace</button> </li>
+                        <li> <button> Creators</button> </li>
+                        <li> <button> Community</button> </li>
                     </ul>
 
                     <button className="bg-button sm:h-14 sm:w-48 h-14 w-44 rounded-full text-white font-semibold">Connect Wallet</button>
