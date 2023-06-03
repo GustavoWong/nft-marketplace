@@ -9,7 +9,8 @@ module.exports = {
         button: '#7879F1',
         gradientMain: '#13082A', 
         gradientMainR: '#261B5C', 
-        background: '#1E1E1E'
+        background: '#1E1E1E',
+        'text-gray': '#9F8FC1',
       }
     },
   },
