@@ -4,7 +4,7 @@ const Nav = () => {
     return (
         <>
             <header>
-                <nav className="h-24 flex justify-evenly items-center backdrop-blur-2xl">
+                <nav className="h-24 flex justify-evenly items-center backdrop-blur-2xl p-3">
                     <h1 className="font-black text-white text-lg">NFTMarketPlace</h1>
 
                     <ul className=" gap-5 text-white hidden lg:flex">
