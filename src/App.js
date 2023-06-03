@@ -1,8 +1,12 @@
+import Nav from "./components/header/index.jsx";
+import Main from "./components/main/main.jsx";
+
 function App() {
   return (
-    <div className="App">
-      <h1 className="bg-sky-500">Hello World!</h1>
-    </div>
+    <>
+      <Nav />
+      <Main />
+    </>
   );
 }
 
