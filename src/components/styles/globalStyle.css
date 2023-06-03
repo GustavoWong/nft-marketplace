@@ -1,9 +1,7 @@
-html {
-  overflow: hidden;
-}
-
-section {
-  height: 90vh;
+@media (min-width: 780px) {
+  html{
+    overflow: hidden;
+  }
 }
 
 body {

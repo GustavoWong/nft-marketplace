@@ -5,14 +5,13 @@ import Vector from '../../imgs/Vector29.png'
 const Main = () => {
   return (
     <>
-      <main>
-        
-      <span className="sm:absolute sm:right-3 hidden md:block">
-        <img src={Vector} alt="a" />
+      <span className="sm:absolute sm:right-3 hidden md:block" >
+        <img src={Vector} alt="im a vector" className="response-please"/>
       </span>
-        <section className="flex flex-col lg:flex-row items-center p-12 sm:p-4">
+      <main>
+        <section className="flex flex-col-reverse lg:flex-row items-center p- sm:p-4 p-5 sm:mt-10">
 
-          <div className="h-2/5 flex flex-col sm:justify-center sm:ml-20  mt-10 text-center sm:text-start">
+          <div className="h-2/5 flex flex-col sm:justify-center sm:ml-20  mt-10 text-center sm:text-start mb-5">
             <strong className="sm:text-6xl text-4xl text-white">
               Remove Borders With <span className="text-button">NFTs</span> <span className="inline-block">Share</span> Art Freely.
             </strong>
@@ -24,8 +23,8 @@ const Main = () => {
             </div>
 
           </div>
-          <picture className="w-full flex justify-center z-10">
-            <img src={Frame} alt="img"  className="sm:h-96"/>
+          <picture className="w-full flex justify-center z-10 mb-6">
+            <img src={Frame} alt="img"  className="max-h-96"/>
           </picture>
         </section>
       </main>
