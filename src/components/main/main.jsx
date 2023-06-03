@@ -10,9 +10,9 @@ const Main = () => {
       <span className="sm:absolute sm:right-3 hidden md:block">
         <img src={Vector} alt="a" />
       </span>
-        <section className="flex flex-col lg:flex-row items-center p-4">
+        <section className="flex flex-col lg:flex-row items-center p-12 sm:p-4">
 
-          <div className="h-2/5 flex flex-col sm:justify-center sm:ml-20  mt-10">
+          <div className="h-2/5 flex flex-col sm:justify-center sm:ml-20  mt-10 text-center sm:text-start">
             <strong className="sm:text-6xl text-4xl text-white">
               Remove Borders With <span className="text-button">NFTs</span> <span className="inline-block">Share</span> Art Freely.
             </strong>
