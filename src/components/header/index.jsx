@@ -3,7 +3,7 @@ import React from "react";
 const Nav = () => {
     return (
         <>
-            <header className="bg-gradient-to-r from-gradientMain to-gradientMainR">
+            <header>
                 <nav className="h-24 flex justify-evenly items-center backdrop-blur-2xl">
                     <h1 className="font-black text-white text-lg">NFTMarketPlace</h1>
 

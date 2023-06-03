@@ -1,3 +1,4 @@
+import './components/styles/globalStyle.css'
 import Nav from "./components/header/index.jsx";
 import Main from "./components/main/main.jsx";
 

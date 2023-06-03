@@ -1,0 +1,17 @@
+html {
+  overflow: hidden;
+}
+
+section {
+  height: 90vh;
+}
+
+body {
+  background: linear-gradient(106.6deg, #13082a 100.44%, #7e7e7e 30.41%);
+  backdrop-filter: blur(3.09568px);
+}
+
+header {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.199));
+  background-color: #ffffff05;
+}
